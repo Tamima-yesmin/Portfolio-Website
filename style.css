@@ -1,0 +1,102 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+p{
+    color:rgb(102, 101, 101);
+    font-size:14px;
+}
+h1{
+    font-size:40px;
+    font-weight: 900;
+}
+
+.top-section{
+
+}
+
+.flexible-container{
+    display: flex;
+}
+.div-section{
+  width:50%;
+  padding:10%;
+  
+}
+
+.div-section h1{
+ /* font-size:40px; */
+ padding-left: 10px;
+}
+
+.div-section img{
+    width:80%;
+}
+
+.border{
+    border-left: 4px solid;
+    border-image: linear-gradient(#caeee5,#88cfe0 );
+    border-image-slice: 1;
+   
+}
+
+.text-color{
+    color:#65a2c3;
+}
+
+.button{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(#d2f3eb,#a3dfee);
+    font-size:12px;
+    margin-bottom: 40px;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.middle-section h1{
+    text-align: center;
+    
+}
+.year-color{
+    color:#65a2c3;
+    font-size:50px;
+}
+
+
+
+.My-Mission{
+    padding:30px 2%;
+    margin: 50px 10px;
+    border-radius: 20px;
+}
+
+.My-Mission img{
+    width:40%;
+    
+}
+
+#mission{
+    
+    /* width: 20%;
+    height: 50px; */
+    background-color:#dce9ec ;
+    
+    /* margin: 50px 4px; */
+    margin-left: 80px;
+    /* height: 50%; */
+    width:50%;
+    
+  
+  }
+
+
+#vission{
+ background-color:rgb(245, 225, 225);
+}
+
+#goals{
+    background-color:rgb(250, 250, 232);
+    margin-right:80px;
+}
