@@ -12,9 +12,7 @@ h1{
     font-weight: 900;
 }
 
-.top-section{
 
-}
 
 .flexible-container{
     display: flex;
@@ -25,10 +23,6 @@ h1{
   
 }
 
-.div-section h1{
- /* font-size:40px; */
- /* padding-left: 10px; */
-}
 
 .div-section img{
     width:80%;
@@ -51,14 +45,15 @@ h1{
 .button{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(#d2f3eb,#a3dfee);
+    /* background-image: linear-gradient(#d2f3eb,#a3dfee); */
+    background-image: linear-gradient(to right,#fde8e8,#a8dfec);
     font-size:12px;
     margin-bottom: 40px;
     padding: 10px 24px;
     border-radius: 5px;
 }
 
-.middle-section h1{
+.My-Mission-section h1{
     text-align: center;
     
 }
@@ -82,8 +77,6 @@ h1{
 
 #mission{
     
-    /* width: 20%;
-    height: 50px; */
     background-color:#dce9ec ;
     
     /* margin: 50px 4px; */
@@ -104,9 +97,70 @@ h1{
     margin-right:80px;
 }
 
-
+.develop-section{
+   
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 220px 200px;
+    margin:0 90px;
+    
+}
 .develop-img{
+    width:70%;
+    margin-top:24px;
     padding-right: 100px;
+}
+
+
+.community-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 290px 270px;
+    /* margin:0 40px; */
+    
+}
+
+.community-text h1{
+    font-size:34px ;
+}
+
+.community-img{
+    width:60%;
+    /* padding-right: 100px; */
+}
+
+
+.women-section h1{
+text-align:center;
+}
+
+.women-img{
+    width:60%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.women-text{
+    font-size:24px;
+}
+
+
+.footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding:14px 0;
+}
+.footer p{
+    color:white;
+}
+
+.footer-year-color{
+    color:#195575;
+    font-size:50px;
 }
 
 
